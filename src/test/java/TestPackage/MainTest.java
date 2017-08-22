@@ -13,6 +13,6 @@ import com.andriigubarenko.beatbox.BeatBoxUserSide;
  */
 public class MainTest {
     public static void main (String[] args) {
-        new BeatBoxUserSide().startUp("1");
+        new BeatBoxUserSide().startUp("Andrew");
       }
 }

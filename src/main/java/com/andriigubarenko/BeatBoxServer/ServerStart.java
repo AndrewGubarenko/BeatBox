@@ -3,12 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.andriigubarenko.beatbox;
+package com.andriigubarenko.BeatBoxServer;
 
 /**
  *
- * @author Андрей
+ * @author Andrii Gubarenko
  */
-public class GUI {
-    
+public class ServerStart {
+    public static void main(String[] args) {
+        new BeatBoxServer().go();
+    }
 }
