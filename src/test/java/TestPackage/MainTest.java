@@ -5,7 +5,7 @@
  */
 package TestPackage;
 
-import com.andriigubarenko.beatbox.BeatBoxUserSide;
+import com.andriigubarenko.beatbox.BeatBoxGui;
 
 /**
  *
@@ -13,6 +13,8 @@ import com.andriigubarenko.beatbox.BeatBoxUserSide;
  */
 public class MainTest {
     public static void main (String[] args) {
-        new BeatBoxUserSide().startUp("Andrew");
+        BeatBoxGui beatBox = new BeatBoxGui();
+        beatBox.startUp("Andrew");
+        beatBox.setVisible(true);
       }
 }

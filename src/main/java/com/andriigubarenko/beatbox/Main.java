@@ -11,6 +11,8 @@ package com.andriigubarenko.beatbox;
  */
 public class Main {
     public static void main (String[] args) {
-        new BeatBoxUserSide().startUp(args[0]);
+        BeatBoxGui beatBox = new BeatBoxGui();
+        beatBox.startUp(args[0]);
+        beatBox.setVisible(true);
       }
 }
