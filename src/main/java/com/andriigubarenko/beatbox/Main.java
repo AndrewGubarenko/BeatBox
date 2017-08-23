@@ -10,9 +10,9 @@ package com.andriigubarenko.beatbox;
  * @author Andrii Gubarenko
  */
 public class Main {
-    public static void main (String[] args) {
-        BeatBoxGui beatBox = new BeatBoxGui();
-        beatBox.startUp(args[0]);
-        beatBox.setVisible(true);
-      }
+
+    public static void main(String[] args) {
+        Name window = new Name();
+        window.setVisible(true);
+    }
 }
